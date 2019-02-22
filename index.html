@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Rent car</title>
 </head>
 
 <body>
@@ -13,8 +13,8 @@
         <nav>
             <a href="#Home">Головна</a>
             <a href="#popular-car">Популярні авто</a>
-            <a href="">Замовлення авто</a>
-            <a href="">Контакти</a>
+            <a href="#order-car">Замовлення авто</a>
+            <a href="#kontakt">Контакти</a>
         </nav>
     </header>
     <div id="Home">
@@ -81,26 +81,51 @@
     <div>
         <img src="img/7.jpg" alt="Авто">
         <br>
-        <border="1">
-            <tr>
-                <td>Відманний технічний стан авто</td>
-                <td>Цілодобова техпідтримка</td>
-            </tr>
-            <tr>
-                <td>Зустріч в аеропорту</td>
-                <td>Замовлення авто 24/7</td>
-            </tr>
-        </border>
         <table border="1">
-                <tr>
-                    <td>Дата народження</td><td>10 июля 1856</td>
-                </tr>
-                <tr>
-                    <td>Дата смерті</td><td>7 января 1943</td>
-                </tr>
-            </table>
+            <tr>
+                <td>Відманний технічний стан авто</td><td>Цілодобова техпідтримка</td>
+            </tr>
+            <tr>
+                <td>Зустріч в аеропорту</td><td>Замовлення авто 24/7</td>
+            </tr>
+        </table>
     </div>
-
+    <div>
+        <h3 id="order-car">Замовлення авто</h3>
+        <form method="POST" action="https://formspree.io/davydovychyurii@gmail.com">
+            <label>
+                Ім'я <br><input type="text" placeholder="Ім'я" required
+                name="user-name">
+            </label>
+            <br>
+            <label>
+                Імейл <br><input type="email" placeholder="Імейл" required
+                name="user-email">
+            </label>
+            <br>
+            <label>
+                Ваш номер <br><input type="number" placeholder="Номер телефону" required
+                name="user-number">
+            </label>
+            <br>
+            <label>
+                Повідомлення <br><input type="text" placeholder="Повідомлення"
+                name="user-message">
+            </label>
+            <br>
+            <input type="submit">
+        </form>
+    </div>
 </body>
+
+<footer>
+    <h4 id="kontakt">Контакти</h4>
+    <p>+380 (95) 358 65 84</p>
+    <p>+380 (96) 958 65 25</p>
+    <p>м.Львів, вул.Сахарова, 31</p>
+    <img src="img/15.png" alt="Логотип">
+    <img src="img/17.png" alt="Логотип">
+    <img src="img/18.png" alt="Логотип">
+</footer>
 
 </html>
