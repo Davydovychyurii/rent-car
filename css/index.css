@@ -34,23 +34,53 @@ header .menu li a {
 header .menu li a:hover {
     text-decoration:underline;
 }
-@media (min-width: 669px) {
+@media (min-width: 530px) {
     header nav {
         display: flex;
-    }
-    header .logo {
-        margin: 24px 10px;
-    }
-    header nav .menu{
-        align-items: center;
-        flex: 1;
-    }
-    header .menu li a {
-    font-size: 15px;
-    }
+ }
+ header .logo {
+     margin:20px 10px;
+ }
+ header nav .menu {
+     align-items: center;
+     flex: 1;
+ }
 }
 
-header .baner {
+header .baner{
     background-image: url(../img/1243546.jpg);
-    min-height: 500px;
+    background-position: center;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    
+}
+header .baner h1 {
+    margin: 10px 20px;
+}
+header .baner .button-container {
+    margin: 5px 20px;
+}
+main .block-car {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+main ul.info {
+    font-size: 20px;
+    
+}
+main p.type-car {
+    display:flex;
+    justify-content: center;
+    font-size: 25px;
+}
+main #popular-car {
+    display:flex;
+    justify-content: center;
+    font-size: 30px;
+}
+main .rentin {
+    display:flex;
+    justify-content: center;
 }
