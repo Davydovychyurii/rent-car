@@ -30,68 +30,67 @@
     <main>
         <h2 id="popular-car">Популярні авто</h2>
         <div class="block-car">
-        <div>
-            <p class="type-car">Бюджетні</p>
-            <img src="img/2.png" widht"260" height="170" alt="Авто">
             <div>
-                <ul class="info">
-                    <li>Кількість місць: 2</li>
-                    <li>Кондеціонер</li>
-                    <li>Навігація</li>
-                </ul>
+                <p class="type-car">Бюджетні</p>
+                <img src="img/2.png" widht "260" height="170" alt="Авто">
+                <div>
+                    <ul class="info">
+                        <li>Кількість місць: 2</li>
+                        <li>Кондеціонер</li>
+                        <li>Навігація</li>
+                    </ul>
+                </div>
+                <div class="rentin">
+                    <a href="">Замовити</a>
+                </div>
             </div>
             <div>
-                <a href="">Замовити</a>
-            </div>
-        </div>
-        <div>
-            <p class="type-car">Комфорт</p>
-            <img src="img/3.png" widht"250" height="170" alt="Авто">
-            <div>
-                <ul class="info">
-                    <li>Кількість місць: 4</li>
-                    <li>Кондеціонер</li>
-                    <li>Навігація</li>
-                </ul>
-            </div>
-            <div>
-                <a href="">Замовити</a>
-            </div>
-        </div>
-        <div>
-            <p class="type-car">Позашляховики</p>
-            <img src="img/4.png" widht"200" height="170" alt="Авто">
-            <div>
-                <ul class="info">
-                    <li>Кількість місць: 5</li>
-                    <li>Кондеціонер</li>
-                    <li>Навігація</li>
-                </ul>
+                <p class="type-car">Комфорт</p>
+                <img src="img/3.png" widht "250" height="170" alt="Авто">
+                <div>
+                    <ul class="info">
+                        <li>Кількість місць: 4</li>
+                        <li>Кондеціонер</li>
+                        <li>Навігація</li>
+                    </ul>
+                </div>
+                <div class="rentin">
+                    <a href="">Замовити</a>
+                </div>
             </div>
             <div>
-                <a href="">Замовити</a>
+                <p class="type-car">Позашляховики</p>
+                <img src="img/4.png" widht "200" height="170" alt="Авто">
+                <div>
+                    <ul class="info">
+                        <li>Кількість місць: 5</li>
+                        <li>Кондеціонер</li>
+                        <li>Навігація</li>
+                    </ul>
+                </div>
+                <div class="rentin">
+                    <a href="">Замовити</a>
+                </div>
             </div>
-        </div>
-        <div>
-            <p class="type-car">Преміум</p>
-            <img src="img/6.png" widht"190" height="170" alt="Авто">
             <div>
-                <ul class="info">
-                    <li>Кількість місць: 5</li>
-                    <li>Кондеціонер</li>
-                    <li>Навігація</li>
-                </ul>
+                <p class="type-car">Преміум</p>
+                <img src="img/6.png" widht "190" height="170" alt="Авто">
+                <div>
+                    <ul class="info">
+                        <li>Кількість місць: 5</li>
+                        <li>Кондеціонер</li>
+                        <li>Навігація</li>
+                    </ul>
+                </div>
+                <div class="rentin">
+                    <a href="">Замовити</a>
+                </div>
             </div>
-            <div>
-                <a href="">Замовити</a>
-            </div>
-        </div>
         </div>
     </main>
-    <div>
-        <img src="img/7.jpg" alt="Авто">
+    <div class="block-mid">
         <br>
-        <table border="1">
+        <table>
             <tr>
                 <td>Відманний технічний стан авто</td>
                 <td>Цілодобова техпідтримка</td>
@@ -104,36 +103,40 @@
     </div>
     <div>
         <h3 id="order-car">Замовлення авто</h3>
-        <form method="POST" action="https://formspree.io/davydovychyurii@gmail.com">
-            <label>
+        <div class="contakt-form">
+            <form method="POST" action="https://formspree.io/davydovychyurii@gmail.com">
+                <label>
                 Ім'я <br><input type="text" placeholder="Ім'я" required
                 name="user-name">
             </label>
-            <br>
-            <label>
+                <br>
+                <label>
                 Імейл <br><input type="email" placeholder="Імейл" required
                 name="user-email">
             </label>
-            <br>
-            <label>
+                <br>
+                <label>
                 Ваш номер <br><input type="number" placeholder="Номер телефону" required
                 name="user-number">
             </label>
-            <br>
-            <label>
+                <br>
+                <label>
                 Повідомлення <br><input type="text" placeholder="Повідомлення"
                 name="user-message">
             </label>
-            <br>
-            <input type="submit">
-        </form>
+                <br>
+                <input type="submit">
+            </form>
+        </div>
     </div>
 
     <footer>
         <h4 id="kontakt">Контакти</h4>
-        <p>+380 (95) 358 65 84</p>
-        <p>+380 (96) 958 65 25</p>
-        <p>м.Львів, вул.Сахарова, 31</p>
+        <div class="phone-number">
+            <p>м.Львів, вул.Сахарова, 31</p>
+            <p>+380 (95) 358 65 84</p>
+            <p>+380 (96) 958 65 25</p>
+        </div>
         <img src="img/15.png" alt="Логотип">
         <img src="img/17.png" alt="Логотип">
         <img src="img/18.png" alt="Логотип">
